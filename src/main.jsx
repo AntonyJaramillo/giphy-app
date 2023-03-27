@@ -1,0 +1,16 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { GifExpertApp } from './GifExpertApp';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
+import './styles.css';
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <GifExpertApp />
+  </React.StrictMode>
+);
